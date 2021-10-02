@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class solution25test {
     @Test
-    void isAnagram(){
+    void passwordValidator(){
         Assertions.assertEquals("", "");
     }
 }

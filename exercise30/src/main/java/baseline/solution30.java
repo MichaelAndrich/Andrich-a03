@@ -6,12 +6,17 @@
 
 package baseline;
 
+
 public class solution30 {
-    //use for loops that create the table vertically
-    for(z...){
-        // nested for loop for horizontal
-        for(h...){
-            //print out v + h
+    public static void main(String[] args) {
+        //use for loops that create the rows in the table
+        for (int row = 1; row <= 12; row++) {
+            // nested for loop for columns
+            for (int column = 1; column <= 12; column++){
+                //print out v + h
+                System.out.printf("%4d", row * column);
+            }
+            System.out.println();
         }
     }
 }

@@ -16,21 +16,17 @@ public class solution33 {
 
         // prompt user for question
         System.out.println("What is your question? ");
+        String input = sc.nextLine();
+        Random random = new Random();
 
         // store in possible answers such as yes, no, maybe and ask again later
-        String [] response = (...)
+        String [] possible = {"Yes", "No", "Maybe", "Ask again later"};
         // randomly choose one of those responses
-        String response = randomize...
+        int randomResponse = random.nextInt(possible.length);
+        String response = possible[randomResponse];
 
         // prtint out the magic answer
-        System.out.println(+response+);
-
-
-
-
-
-
-
+        System.out.println(""+response+"");
 
     }
 }

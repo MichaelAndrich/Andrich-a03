@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e34280-0c9a-462f-bb89-2ed3f6324809" name="Changes" comment="">
+    <list default="true" id="02e34280-0c9a-462f-bb89-2ed3f6324809" name="Changes" comment="1st commit">
       <change beforePath="$PROJECT_DIR$/../exercise24/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise24/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise24/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise24/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise25/.idea/workspace.xml" afterDir="false" />
@@ -12,14 +12,14 @@
       <change beforePath="$PROJECT_DIR$/../exercise26/src/main/java/baseline/solution26.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise26/src/main/java/baseline/solution26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise26/src/test/java/baseline/solution26test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise26/src/test/java/baseline/solution26test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise27/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise27/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise28/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise28/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise28/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise28/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise29/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise29/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise29/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise29/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise30/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise30/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise30/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise30/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/solution31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/solution31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseline/solution31test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseline/solution31test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="solution31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baseline.solution31" />
+      <module name="exercise31.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baseline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.solution31" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,6 +83,29 @@
       <option name="presentableId" value="Default" />
       <updated>1633035616338</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <created>1633288254916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633288254916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
   </component>
 </project>

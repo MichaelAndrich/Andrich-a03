@@ -9,35 +9,38 @@ package baseline;
 import java.util.Scanner;
 
 public class solution31 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         // prompt user for age and resting heart rate
         // create our variables
-        double restingHR;
-        double age;
-        int intensity = 55;
-        // only allow for use of numbers
-        if (!restingHR.matches ["0-9"]);{
+        try {
+            int intensity = 55;
+            // only allow for use of numbers
+            System.out.println("Enter your age: ");
+            double age = sc.nextDouble();
+            System.out.println("Enter your resting pulse: ");
+            double restingHR = sc.nextDouble();
+            System.out.println("Resting pulse: " + restingHR + "\tAge: " + age + "");
 
-        } else {
-            ...
+
+            System.out.println("Enter only numbers for your resting pulse.");
+
+            // return if not entered with numbers
+            System.out.println("Intensity   | Rate");
+            // create break for table
+            System.out.println("------------|----------");
+
+            // calculations with
+            while(intensity < 96){
+                double TargetHeartRate = ((((220 - age) - restingHR) * intensity/100) + restingHR);
+                System.out.println(+intensity+"          |"+TargetHeartRate+ "bpm");
+                // use a loop to increment percentages from 55 to 95%
+                intensity += 5;
+            }
+            intensity += 5;
+        } catch (Exception e) {
+            System.out.println("Enter only numbers. ");
         }
-        if (!age.matches ["0-9"]);{
-
-        } else {
-            ...
-        }
-        // return if not entered with numbers
-
-        // calculations with
-        TargetHeartRate = (((220 - age) - restingHR) * intensity) + restingHR;
-        // display using a tabular format
-        System.out.println("Intensity | Rate");
-        // create break for table
-        System.out.println("-----------------");
-        // print out intensity % / rate bpm
-        // use a loop to increment percentages from 55 to 95%
-        intensity += 5;
     }
 }

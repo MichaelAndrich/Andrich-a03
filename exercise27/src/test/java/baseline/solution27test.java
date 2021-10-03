@@ -8,12 +8,15 @@ public class solution27test {
     void validFirst(){
         Assertions.assertEquals("", "");
     }
+    @Test
     void validLast(){
         Assertions.assertEquals("", "");
     }
+    @Test
     void validZip(){
         Assertions.assertEquals("", "");
     }
+    @Test
     void validEmployee(){
         Assertions.assertEquals("", "");
     }

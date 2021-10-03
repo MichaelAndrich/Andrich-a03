@@ -5,6 +5,6 @@ import org.junit.jupiter.api.Test;
 
 public class solution28test {
     @Test
-    void main() {Assertions.assertEquals("", "");}
+    void main() { Assertions.assertEquals("15", "15");}
 
 }

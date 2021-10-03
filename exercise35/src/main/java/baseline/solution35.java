@@ -7,13 +7,14 @@ package baseline;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Random;
 
 public class solution35 {
     public static void main(String[] args ){
         Scanner sc = new Scanner(System.in);
 
         // like last exercise, use an array to store inputted names
-        ArrayList<String> ...
+        ArrayList<String> inputList = new ArrayList<String>();
         String input = null;
 
         // prompt user for names but in a loop
@@ -22,17 +23,19 @@ public class solution35 {
             input = sc.nextLine();
 
             // create if statement that will make sure no blanks are stored in array
-            if (!input.isBlank() && !input.isEmpty());
+            if (!input.isBlank() && !input.isEmpty())
+                inputList.add(input);
         }
         // end do-while with a while statement
-        while(...)
+        while(!input.isBlank() && !input.isEmpty());
 
             // create a random generator for the winner
 
             Random random = new Random();
+            int randomIndex = random.nextInt(inputList.size());
 
         // print out winner
-        System.out.println("The winner is...");
+        System.out.println("The winner is "+inputList.get(randomIndex));
 
     }
 }

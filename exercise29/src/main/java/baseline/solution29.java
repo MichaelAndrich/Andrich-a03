@@ -5,19 +5,29 @@
 
 package baseline;
 
-public class solution29 {
-    // formula of a quick calculator for ROI
-    years = 72 / input;
+import java.util.Scanner;
 
-    // prompt user for input of 3 questions
-    System.out.prtintln("What is the rate of return? ");
-    // dont allow for the input of 0s
-    if(input >=1 && input <= 72){
-        System.out.println("It will take "+years+ " years to double your investment. ");
-        //print out amount of years to double investment
-    } else {
+public class solution29 {
+    public static void main (String[] args){
+        Scanner sc = new Scanner(System.in);
+        int input;
+        while(true){
+            // prompt user for input of question
+            System.out.println("What is the rate of return? ");
+            input = sc.nextInt();
+            System.out.println(input);
+            //print out amount of years to double investment
+            if(input>=1 && input<= 72){
+                System.out.println("It will take "+(72 / input)+ " years to double your investment. ");
+                break;
+                // dont allow for the input of 0s
+            } else {
+                //print out if 0 is inputted to re-enter new value
+                System.out.println("0 is not a valid input. ");
+
+            }
+        }
 
     }
-        //print out if 0 is inputted to re-enter new value
-    System.out.println("0 is not a valid input. ")
+
 }

@@ -4,11 +4,14 @@
  */
 
 
+//ABCDEFGHIJKLMNOPQRSTUVWXYZ
+//abcdefghijklmnopqrstuvwxyz
 
 package baseline;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class solution37 {
@@ -27,24 +30,46 @@ public class solution37 {
 
         public static String randomPassword(int length, int spec, int nums){
 
+            String ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+            String a1 = ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+            String abcdefghijklmnopqrstuvwxyz;
+            String a2 = abcdefghijklmnopqrstuvwxyz;
+
+
 
         // create a list for the alphabet a-z and A-Z
-        List<String> alphabet = new ArrayList<String>(...);
+        List<String> alphabet = new ArrayList<String>();
+        alphabet.add(a1);
+        alphabet.add(a2);
+
+        String special = "!@#$%^&*()<>?:+=";
 
         // create a list for special characters
-        List<String> specCharacters = new ArrayList<String>(...);
+        List<String> specCharacters = new ArrayList<String>();
+        specCharacters.add(special);
+
+        String numb = "1234567890";
 
         // create a list for numbers
-        List<Integer> numbers = new ArrayList<Integer>()...);
+        List<String> numbers = new ArrayList<String>();
+        numbers.add(numb);
+
+        Random random = new Random();
 
 
 
         // create a loop to generate a random set of determined special characters
-        for(int = i;...)
+        for(int i = 0; i<spec; i++){
+            chars.add(specCharacters.charAt(random.nextInt(letters.length)));
+            }
         // create a loop to generate a random set of determined numbers
-            for(int = i;...)
+            for(int i = 0; i < nums; i++){
+                chars.add(letters.charAt(random.nextInt(letters.length)));
+            }
         // create a loop to generate a random set of letters to fill the rest with the password
-                for(int = i;...)
+                for(int i = chars.size()-1; i < length; i++){
+                    chars.add(letters.charAt(random.nextInt(letters.length)));
+                }
         // create a loop to generate a random set of all obtained special characters, numbers and letters
                     for()
 

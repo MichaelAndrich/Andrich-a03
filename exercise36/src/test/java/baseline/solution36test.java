@@ -4,5 +4,19 @@ import org.junit.jupiter.api.Test;
 
 public class solution36test {
     @Test
-    void main(...){};
+    void average(){
+
+    }
+    @Test
+    void min(){
+
+    }
+    @Test
+    void max(){
+
+    }
+    @Test
+    void std(){
+
+    }
 }
